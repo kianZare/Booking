@@ -202,6 +202,7 @@
   flex: 1;
   background-color: var(--text-100);
   position: relative;
+  
 }
 .mapContainer button.getLocation {
   padding: 0.3rem 0.5rem;
