@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 .headerSearchItem .seperator {
   display: inline-block;
@@ -103,6 +104,7 @@
 .dateDropDown {
   margin-left: 0.5rem;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 
 .headerSearchBtn {
@@ -129,11 +131,11 @@
   gap: 2rem;
   /* margin: 1rem; */
 }
-.itemWrap{
+.itemWrap {
   background: rgb(224, 224, 231);
   border-radius: 0.5rem;
 }
-.itemWrap:hover{
+.itemWrap:hover {
   scale: 1.1;
   cursor: pointer;
 }
@@ -147,8 +149,8 @@
   margin-bottom: 0.5rem;
 }
 
-.locationItemDesc{
-  margin: 0 0 1rem 1rem ;
+.locationItemDesc {
+  margin: 0 0 1rem 1rem;
 }
 
 .locationItemDesc > :not(:last-child) {
@@ -202,7 +204,6 @@
   flex: 1;
   background-color: var(--text-100);
   position: relative;
-  
 }
 .mapContainer button.getLocation {
   padding: 0.3rem 0.5rem;
@@ -265,6 +266,12 @@
   height: calc(100vh - 130px);
   /* background-color: var(--text-100); */
   align-items: stretch;
+  
+}
+@media screen and (max-width: 768px) {
+  .appLayout {
+    
+  }
 }
 
 .sidebar {
@@ -298,6 +305,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.locationName {
+  display: flex;
+  gap: 1rem;
+}
+.flag{
+  font-size: 1.5rem;
 }
 
 .bookmarkList .bookmarkItem.current-bookmark {
@@ -351,6 +365,7 @@
 
 .btn--back {
   border: 1px solid var(--text-400);
+  margin-bottom: 1rem;
 }
 
 .formControl .flag {
@@ -385,5 +400,3 @@ a.active {
   width: 1.1rem;
   height: 1.1rem;
 }
-
-

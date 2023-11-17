@@ -2,10 +2,10 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
-function useFetch(url, query = "") {
+export default function useFetch(url, query = "") {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -19,9 +19,9 @@ function useFetch(url, query = "") {
         setIsLoading(false);
       }
     }
+
     fetchData();
   }, [query, url]);
+
   return { isLoading, data };
 }
-
-export default useFetch;
