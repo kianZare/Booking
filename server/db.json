@@ -1368,6 +1368,69 @@
       "longitude": "67.78003711374224",
       "host_location": "Baba Kot Pakistan",
       "id": 8
+    },
+    {
+      "cityName": "Liverpool",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "53.45232089276445",
+      "longitude": "-2.7331924438476567",
+      "host_location": "Liverpool United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 9
+    },
+    {
+      "cityName": "Shiraz",
+      "country": "Iran (Islamic Republic of)",
+      "countryCode": "IR",
+      "latitude": "29.58868431652354",
+      "longitude": "52.52563476562501",
+      "host_location": "Shiraz Iran (Islamic Republic of)",
+      "id": 10
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "51.50792778721985",
+      "longitude": "-0.12496948242187501",
+      "host_location": "London United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 11
+    },
+    {
+      "cityName": "Gent",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "latitude": "51.05536919041931",
+      "longitude": "3.7243652343750004",
+      "host_location": "Gent Belgium",
+      "id": 12
+    },
+    {
+      "cityName": "The Hague",
+      "country": "Netherlands (the)",
+      "countryCode": "NL",
+      "latitude": "52.07307019316775",
+      "longitude": "4.314880371093751",
+      "host_location": "The Hague Netherlands (the)",
+      "id": 13
+    },
+    {
+      "cityName": "Delft",
+      "country": "Netherlands (the)",
+      "countryCode": "NL",
+      "latitude": "52.00955918855797",
+      "longitude": "4.360198974609376",
+      "host_location": "Delft Netherlands (the)",
+      "id": 14
+    },
+    {
+      "cityName": "Istanbul",
+      "country": "Turkiye",
+      "countryCode": "TR",
+      "latitude": "40.989746477482456",
+      "longitude": "29.003906250000004",
+      "host_location": "Istanbul Turkiye",
+      "id": 15
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import useFetch from "../../hooks/useFetch";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -6,20 +6,52 @@ import toast from "react-hot-toast";
 const BookmarkContext = createContext();
 const BASE_URL = "http://localhost:5000";
 
-function BookmarkListProvider({ children }) { 
+function BookmarkListProvider({ children }) {
   const [currentBookmark, setCurrentBookmark] = useState(null);
-  const [isLoadingCurrentBookmark, setIsLoadingCurrentBookmark] = useState(false);
-  const { isLoading, data: bookmarks } = useFetch(`${BASE_URL}/bookmarks`);
+  const [bookmarks, setBookmarks] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    async function fetchBookmarkList() {
+      setIsLoading(true);
+      try {
+        const { data } = await axios.get(`${BASE_URL}/bookmarks`);
+        setBookmarks(data);
+      } catch (error) {
+        toast.error(error.message);
+        false;
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    fetchBookmarkList();
+  }, []);
 
   async function getBookmark(id) {
-    setIsLoadingCurrentBookmark(true);
+    setIsLoading(true);
+    setCurrentBookmark(null);
     try {
       const { data } = await axios.get(`${BASE_URL}/bookmarks/${id}`);
       setCurrentBookmark(data);
-      setIsLoadingCurrentBookmark(false);
     } catch (error) {
       toast.error(error.message);
-      setIsLoadingCurrentBookmark(false);
+      false;
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+  async function createBookmark(newBookmark) {
+    setIsLoading(true);
+    try {
+      const { data } = await axios.post(`${BASE_URL}/bookmarks/`, newBookmark);
+      setBookmarks((prev) => [...prev, data]);
+    } catch (error) {
+      toast.error(error.message);
+      false;
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -30,7 +62,7 @@ function BookmarkListProvider({ children }) {
         bookmarks,
         getBookmark,
         currentBookmark,
-        isLoadingCurrentBookmark,
+        createBookmark,
       }}
     >
       {children}
