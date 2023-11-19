@@ -1,16 +1,18 @@
-import { MdLocationOn } from "react-icons/md";
+import { MdLocationOn, MdLogout } from "react-icons/md";
 import { HiCalendar, HiMinus, HiPlus, HiSearch } from "react-icons/hi";
 import { useRef, useState } from "react";
-import useOutsideClick from "../hooks/useOutsideClick";
+import useOutsideClick from "../../hooks/useOutsideClick";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRange } from "react-date-range";
 import { format } from "date-fns";
 import {
+  NavLink,
   createSearchParams,
   useNavigate,
   useSearchParams,
 } from "react-router-dom";
+import { useAuth } from "../context/AuthProvider";
 
 function Header() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -59,7 +61,11 @@ function Header() {
 
   return (
     <div className="header">
+
       <div className="headerSearch">
+      <NavLink to="/bookmark">Bookmarks</NavLink>
+      <span className="seperator">|</span>
+
         <div className="headerSearchItem">
           <MdLocationOn className="headerIcon locationIcon" />
           <input
@@ -111,6 +117,9 @@ function Header() {
             <HiSearch className="headerIcon" />
           </button>
         </div>
+        <span className="seperator">|</span>
+
+      <User />
       </div>
     </div>
   );
@@ -165,6 +174,30 @@ function OptionItem({ options, type, minLimit, handleOptions }) {
           <HiPlus className="icon" />
         </button>
       </div>
+    </div>
+  );
+}
+
+function User() {
+  const navigate = useNavigate();
+  const { user, isAuthenticated, logout } = useAuth();
+  const handleLogout = () => {
+    logout();
+    navigate("/");
+  };
+
+  return (
+    <div>
+      {isAuthenticated ? (
+        <div>
+          <strong>{user.name}</strong>
+          <button>
+            &nbsp; <MdLogout onClick={handleLogout} className="logout icon" />
+          </button>
+        </div>
+      ) : (
+        <NavLink to="/login">login</NavLink>
+      )}
     </div>
   );
 }
