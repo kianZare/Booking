@@ -1325,33 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Sanandaj",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "35.31372444726279",
-      "longitude": "47.03114358752335",
-      "host_location": "Sanandaj Iran (Islamic Republic of)",
-      "id": 5
-    },
-    {
-      "cityName": "Baba Kot",
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "latitude": "28.43528783183169",
-      "longitude": "67.78003711374224",
-      "host_location": "Baba Kot Pakistan",
-      "id": 8
-    },
-    {
-      "cityName": "Liverpool",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "countryCode": "GB",
-      "latitude": "53.45232089276445",
-      "longitude": "-2.7331924438476567",
-      "host_location": "Liverpool United Kingdom of Great Britain and Northern Ireland (the)",
-      "id": 9
-    },
-    {
       "cityName": "Shiraz",
       "country": "Iran (Islamic Republic of)",
       "countryCode": "IR",
@@ -1388,15 +1361,6 @@
       "id": 18
     },
     {
-      "cityName": "London",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "countryCode": "GB",
-      "latitude": "51.50514978115205",
-      "longitude": "-0.12634277343750003",
-      "host_location": "London United Kingdom of Great Britain and Northern Ireland (the)",
-      "id": 19
-    },
-    {
       "cityName": "Katerinivka",
       "country": "Ukraine",
       "countryCode": "UA",
@@ -1424,15 +1388,6 @@
       "id": 22
     },
     {
-      "cityName": "Oslo",
-      "country": "Norway",
-      "countryCode": "NO",
-      "latitude": "59.87894562600529",
-      "longitude": "10.711669921875",
-      "host_location": "Oslo Norway",
-      "id": 23
-    },
-    {
       "cityName": "London",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "countryCode": "GB",
@@ -1451,15 +1406,6 @@
       "id": 25
     },
     {
-      "cityName": "Brugge",
-      "country": "Belgium",
-      "countryCode": "BE",
-      "latitude": "51.213765926935025",
-      "longitude": "3.2440567016601562",
-      "host_location": "Brugge Belgium",
-      "id": 26
-    },
-    {
       "cityName": "Harrogate",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "countryCode": "GB",
@@ -1467,6 +1413,24 @@
       "longitude": "-1.6809082031250002",
       "host_location": "Harrogate United Kingdom of Great Britain and Northern Ireland (the)",
       "id": 27
+    },
+    {
+      "cityName": "Leganes",
+      "country": "Spain",
+      "countryCode": "ES",
+      "latitude": "40.3205774559658",
+      "longitude": "-3.7777519226074223",
+      "host_location": "Leganes Spain",
+      "id": 28
+    },
+    {
+      "cityName": "Torshavn",
+      "country": "Faroe Islands (the)",
+      "countryCode": "FO",
+      "latitude": "62.011988547964826",
+      "longitude": "-6.7684364318847665",
+      "host_location": "Torshavn Faroe Islands (the)",
+      "id": 29
     }
   ]
 }
