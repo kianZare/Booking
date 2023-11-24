@@ -1,5 +1,5 @@
 import { MdLocationOn, MdLogout } from "react-icons/md";
-import { HiCalendar, HiMinus, HiPlus, HiSearch } from "react-icons/hi";
+import { HiCalendar, HiMinus, HiPlus, HiSearch, HiMenu } from "react-icons/hi";
 import { useRef, useState } from "react";
 import useOutsideClick from "../../hooks/useOutsideClick";
 import "react-date-range/dist/styles.css"; // main style file
@@ -61,10 +61,9 @@ function Header() {
 
   return (
     <div className="header">
-
       <div className="headerSearch">
-      <NavLink to="/bookmark">Bookmarks</NavLink>
-      <span className="seperator">|</span>
+        <span className="logo">Booking Hotele</span>
+        <span className="seperator"></span>
 
         <div className="headerSearchItem">
           <MdLocationOn className="headerIcon locationIcon" />
@@ -117,9 +116,12 @@ function Header() {
             <HiSearch className="headerIcon" />
           </button>
         </div>
-        <span className="seperator">|</span>
-
-      <User />
+        <span className="seperator"></span>
+        <NavLink to="/bookmark" className="bookmarkIcon">Bookmarks</NavLink>
+        <div className="menu">
+        <User />
+        <HiMenu className="menuIcon"/>
+        </div>
       </div>
     </div>
   );
@@ -187,7 +189,7 @@ function User() {
   };
 
   return (
-    <div>
+    <div className="headerPhone">
       {isAuthenticated ? (
         <div>
           <strong>{user.name}</strong>

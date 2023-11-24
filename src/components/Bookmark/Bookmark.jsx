@@ -19,7 +19,7 @@ function Bookmark() {
   if(!bookmarks.length) return <p>There is no bookmarked location</p>
   return (
     <div>
-      <h2>BookmarkList</h2>
+      <h2 className="bookmarkh2">BookmarkList</h2>
       <div
         className="bookmarkList"
       >

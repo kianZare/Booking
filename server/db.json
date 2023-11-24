@@ -1431,6 +1431,33 @@
       "longitude": "10.711669921875",
       "host_location": "Oslo Norway",
       "id": 23
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "51.431577915404716",
+      "longitude": "-0.22968292236328128",
+      "host_location": "London United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 24
+    },
+    {
+      "cityName": "Liverpool",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "53.429787547574044",
+      "longitude": "-2.771472930908203",
+      "host_location": "Liverpool United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 25
+    },
+    {
+      "cityName": "Brugge",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "latitude": "51.213765926935025",
+      "longitude": "3.2440567016601562",
+      "host_location": "Brugge Belgium",
+      "id": 26
     }
   ]
 }
