@@ -1458,6 +1458,15 @@
       "longitude": "3.2440567016601562",
       "host_location": "Brugge Belgium",
       "id": 26
+    },
+    {
+      "cityName": "Harrogate",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "54.10812518103018",
+      "longitude": "-1.6809082031250002",
+      "host_location": "Harrogate United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 27
     }
   ]
 }

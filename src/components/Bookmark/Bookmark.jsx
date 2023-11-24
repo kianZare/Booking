@@ -3,7 +3,7 @@ import { useBookmark } from "../context/BookmarkListContext";
 import Loader from "../Loader/Loader";
 import ReactCountryFlag from "react-country-flag";
 import { HiTrash } from "react-icons/hi";
-import { id } from "date-fns/locale";
+// import { id } from "date-fns/locale";
 
 function Bookmark() {
   const { isLoading, bookmarks, currentBookmark, deleteBookmark } = useBookmark();

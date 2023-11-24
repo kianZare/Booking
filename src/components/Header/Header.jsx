@@ -15,6 +15,7 @@ import {
 import { useAuth } from "../context/AuthProvider";
 
 function Header() {
+  // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams();
 
   const [destination, setDestination] = useState(
