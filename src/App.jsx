@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import AppLayout from "./components/appLayout/AppLayout";
 import Hotels from "./components/hotels/Hotels";
 import HotelsProvider from "./components/context/HotelsProvider";
-import SingleHotel from "./components/singleHotel/singleHotel";
+import SingleHotel from "./components/SingleHotel/SingleHotel";
 import BookmarkLayout from "./components/BookmarkLayout/BookmarkLayout";
 import BookmarkListProvider from "./components/context/BookmarkListContext";
 import Bookmark from "./components/Bookmark/Bookmark";
