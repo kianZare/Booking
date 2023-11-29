@@ -8,7 +8,7 @@ function SingleHotel() {
   const { getHotel, isLoadingCurrentHotel, currentHotel } = useHotels();
   useEffect(() => {
     getHotel(id);
-  }, []);
+  }, [id]);
 
   if (isLoadingCurrentHotel || !currentHotel) return <Loader />;
 

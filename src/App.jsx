@@ -6,7 +6,6 @@ import { Route, Routes } from "react-router-dom";
 import AppLayout from "./components/appLayout/AppLayout";
 import Hotels from "./components/hotels/Hotels";
 import HotelsProvider from "./components/context/HotelsProvider";
-import SingleHotel from "./components/SingleHotel/SingleHotel";
 import BookmarkLayout from "./components/BookmarkLayout/BookmarkLayout";
 import BookmarkListProvider from "./components/context/BookmarkListContext";
 import Bookmark from "./components/Bookmark/Bookmark";
@@ -15,6 +14,7 @@ import AddNewBookmark from "./components/AddNewBookmark/AddNewBookmark";
 import AuthProvier from "./components/context/AuthProvider";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import Login from "./components/Login/Login";
+import SingleHotel from "./components/singleHotel/singleHotel";
 
 function App() {
   return (
