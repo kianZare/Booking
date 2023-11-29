@@ -1431,6 +1431,15 @@
       "longitude": "-6.7684364318847665",
       "host_location": "Torshavn Faroe Islands (the)",
       "id": 29
+    },
+    {
+      "cityName": "Liverpool",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "53.40948708550142",
+      "longitude": "-2.8348159790039067",
+      "host_location": "Liverpool United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 31
     }
   ]
 }

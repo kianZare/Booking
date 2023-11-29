@@ -8,8 +8,7 @@ function SingleHotel() {
   const { getHotel, isLoadingCurrentHotel, currentHotel } = useHotels();
   useEffect(() => {
     getHotel(id);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id]);
+  }, []);
 
   if (isLoadingCurrentHotel || !currentHotel) return <Loader />;
 
