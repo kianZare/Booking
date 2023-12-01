@@ -8,7 +8,7 @@ function SingleHotel() {
   const { getHotel, isLoadingCurrentHotel, currentHotel } = useHotels();
   useEffect(() => {
     getHotel(id);
-  }, [id]);
+  },[id]);
 
   if (isLoadingCurrentHotel || !currentHotel) return <Loader />;
 
@@ -31,5 +31,6 @@ function SingleHotel() {
     </div>
   );
 }
+
 
 export default SingleHotel;
