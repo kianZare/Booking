@@ -1334,60 +1334,6 @@
       "id": 10
     },
     {
-      "cityName": "The Hague",
-      "country": "Netherlands (the)",
-      "countryCode": "NL",
-      "latitude": "52.07307019316775",
-      "longitude": "4.314880371093751",
-      "host_location": "The Hague Netherlands (the)",
-      "id": 13
-    },
-    {
-      "cityName": "Istanbul",
-      "country": "Turkiye",
-      "countryCode": "TR",
-      "latitude": "40.989746477482456",
-      "longitude": "29.003906250000004",
-      "host_location": "Istanbul Turkiye",
-      "id": 15
-    },
-    {
-      "cityName": "Berlare",
-      "country": "Belgium",
-      "countryCode": "BE",
-      "latitude": "51.02610528064769",
-      "longitude": "3.9513015747070312",
-      "host_location": "Berlare Belgium",
-      "id": 18
-    },
-    {
-      "cityName": "Katerinivka",
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "latitude": "48.57751571786707",
-      "longitude": "32.03613281250001",
-      "host_location": "Katerinivka Ukraine",
-      "id": 20
-    },
-    {
-      "cityName": "Tura",
-      "country": "Russian Federation (the)",
-      "countryCode": "RU",
-      "latitude": "64.48699346670011",
-      "longitude": "97.20703125000001",
-      "host_location": "Tura Russian Federation (the)",
-      "id": 21
-    },
-    {
-      "cityName": "Þingeyjarsveit",
-      "country": "Iceland",
-      "countryCode": "IS",
-      "latitude": "64.79635679117919",
-      "longitude": "-18.237304687500004",
-      "host_location": "Þingeyjarsveit Iceland",
-      "id": 22
-    },
-    {
       "cityName": "London",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "countryCode": "GB",
@@ -1395,15 +1341,6 @@
       "longitude": "-0.22968292236328128",
       "host_location": "London United Kingdom of Great Britain and Northern Ireland (the)",
       "id": 24
-    },
-    {
-      "cityName": "Liverpool",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "countryCode": "GB",
-      "latitude": "53.429787547574044",
-      "longitude": "-2.771472930908203",
-      "host_location": "Liverpool United Kingdom of Great Britain and Northern Ireland (the)",
-      "id": 25
     },
     {
       "cityName": "Harrogate",
@@ -1436,10 +1373,46 @@
       "cityName": "Liverpool",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "countryCode": "GB",
-      "latitude": "53.40948708550142",
-      "longitude": "-2.8348159790039067",
+      "latitude": "53.37141563494424",
+      "longitude": "-2.830925018448994",
       "host_location": "Liverpool United Kingdom of Great Britain and Northern Ireland (the)",
-      "id": 31
+      "id": 32
+    },
+    {
+      "cityName": "Washington",
+      "country": "United States of America (the)",
+      "countryCode": "US",
+      "latitude": "38.88180017538919",
+      "longitude": "-77.0507822708847",
+      "host_location": "Washington United States of America (the)",
+      "id": 33
+    },
+    {
+      "cityName": "Al Kharjah",
+      "country": "Egypt",
+      "countryCode": "EG",
+      "latitude": "25.3096687145247",
+      "longitude": "29.824206223091544",
+      "host_location": "Al Kharjah Egypt",
+      "id": 34
+    },
+    {
+      "cityName": "Canberra",
+      "country": "Australia",
+      "countryCode": "AU",
+      "latitude": "-35.33892419521111",
+      "longitude": "149.11376683910714",
+      "host_location": "Canberra Australia",
+      "id": 35
+    },
+    {
+      "cityName": "Ottawa",
+      "country": "Canada",
+      "countryCode": "CA",
+      "latitude": "45.395244178358254",
+      "longitude": "-75.71045156444094",
+      "host_location": "Ottawa Canada",
+      "id": 36
     }
   ]
 }

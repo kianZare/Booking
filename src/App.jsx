@@ -14,7 +14,7 @@ import AddNewBookmark from "./components/AddNewBookmark/AddNewBookmark";
 import AuthProvier from "./components/context/AuthProvider";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import Login from "./components/Login/Login";
-import SingleHotel from "./components/singleHotel/SingleHotel";
+import SingleHotel from "./components/singleHotel/singleHotel";
 
 function App() {
   return (
