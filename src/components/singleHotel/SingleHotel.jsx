@@ -1,14 +1,16 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Loader from "../Loader/Loader";
 import { useHotels } from "../context/HotelsProvider";
 import { useEffect } from "react";
 
 function SingleHotel() {
   const { id } = useParams();
+  const navigate = useNavigate();
+
   const { getHotel, isLoadingCurrentHotel, currentHotel } = useHotels();
   useEffect(() => {
     getHotel(id);
-  },[id]);
+  }, [id]);
 
   if (isLoadingCurrentHotel || !currentHotel) return <Loader />;
 
@@ -27,10 +29,18 @@ function SingleHotel() {
         </p>
 
         <p className="hoteleDescription">{currentHotel.description}</p>
+        <div className="singlePageBtns">
+          <button className="btn1 book">Book</button>
+          <button
+            className="btn1 back"
+            onClick={() => navigate(-1)}
+          >
+            Back
+          </button>
+        </div>
       </div>
     </div>
   );
 }
-
 
 export default SingleHotel;
