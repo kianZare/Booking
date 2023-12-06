@@ -1343,15 +1343,6 @@
       "id": 24
     },
     {
-      "cityName": "Harrogate",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "countryCode": "GB",
-      "latitude": "54.10812518103018",
-      "longitude": "-1.6809082031250002",
-      "host_location": "Harrogate United Kingdom of Great Britain and Northern Ireland (the)",
-      "id": 27
-    },
-    {
       "cityName": "Leganes",
       "country": "Spain",
       "countryCode": "ES",
@@ -1427,19 +1418,19 @@
       "cityName": "Madrid",
       "country": "Spain",
       "countryCode": "ES",
-      "latitude": "40.40031034474079",
-      "longitude": "-3.676986694335938",
-      "host_location": "Madrid Spain",
-      "id": 38
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "countryCode": "ES",
       "latitude": "40.421541818415946",
       "longitude": "-3.732261657714844",
       "host_location": "Madrid Spain",
       "id": 39
+    },
+    {
+      "cityName": "Amsterdam",
+      "country": "Netherlands (the)",
+      "countryCode": "NL",
+      "latitude": "52.34682978456227",
+      "longitude": "4.824199676513673",
+      "host_location": "Amsterdam Netherlands (the)",
+      "id": 40
     }
   ]
 }
