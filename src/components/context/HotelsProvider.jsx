@@ -5,7 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 const HotelContext = createContext();
-const BASE_URL = "http://localhost:5000"
+const BASE_URL = "https://hotels-9x24.onrender.com"
 
 function HotelsProvider({ children }) {
   const [currentHotel,setCurrentHotel] = useState(null)
